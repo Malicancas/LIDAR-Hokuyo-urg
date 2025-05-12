@@ -35,7 +35,7 @@ def generate_launch_description():
     config_file_path_1st = os.path.join(
         get_package_share_directory('urg_node2'),
         'config',
-        'params_ether.yaml'
+        'params_serial.yaml'
     )
 
     # パラメータファイルのパス設定（2台目）
